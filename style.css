@@ -1,0 +1,41 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 211, 140);
+}
+
+main{
+  flex-grow: 1;
+}
+
+.product-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  margin: 0
+}
+
+.product {
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.product:hover {
+  transform: scale(1.02);
+}
+
+.cart {
+  overflow-y: scroll;
+    height: 90%;
+}
+
+.action {
+  cursor: pointer;
+}
+.action:hover {
+  transform: scale(1.02);
+}
